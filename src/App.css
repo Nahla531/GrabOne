@@ -433,7 +433,7 @@ aside header {
 
 #aside {
     /* width: 25%; */
-    padding-left: 15px;
+    /* padding-left: 15px; */
     display: none;
 }
 
@@ -626,9 +626,12 @@ span.main-footer_copyright-content {
 
 /* media quires */
 
-@media screen and (min-width: 769px) {
+@media screen and (min-width: 768px) {
     .cta-sub {
         display: flex;
+    }
+    .container {
+        max-width: none !important;
     }
 }
 

@@ -20,7 +20,7 @@ function App() {
         <section className="container-width ">
           <Container>
             <Row>
-              <Col>
+              <Col lg="3">
                 <Aside />
               </Col>
               <Col>
