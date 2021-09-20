@@ -16,7 +16,7 @@ const Section = ({ link, heading }) => {
             <Icon.ChevronRight className="chev-right" size={13} />
           </a>
         </header>
-        <Container>
+        <Container fluid>
           <Row>
             <Listing isLarge="false" />
           </Row>
