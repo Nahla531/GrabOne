@@ -185,7 +185,11 @@ ul li a .bi {
     padding-right: 15px;
 }
 
-#banner a:hover {
+.menu-container a:hover {
+    color: #01b2ee;
+}
+
+.dropdown #catg-btn:hover {
     color: #01b2ee;
 }
 
@@ -277,11 +281,31 @@ img {
 
 /* hero page ends */
 
+.container-width {
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+
+/* overriding some  bootstrap style*/
+
+.dropdown .btn:hover {
+    color: #fff;
+}
+
 
 /* media quires */
 
 @media (min-width: 1200px) {
-    .container {
+    .container-width {
         max-width: 1385px;
+    }
+}
+
+@media screen and (min-width: 1088px) {
+    .homepage-hero-banner .header-image {
+        padding-top: 20px !important;
     }
 }
