@@ -603,14 +603,23 @@ span.main-footer_copyright-content {
     }
 }
 
-@media (min-width: 1200px) {
-    .container-width {
-        max-width: 1385px;
+@media screen and (max-width: 1087px) {
+    .account-links ul {
+        display: none;
+    }
+    .banner-secondary-nav {
+        display: none !important;
     }
 }
 
 @media screen and (min-width: 1088px) {
     .homepage-hero-banner .header-image {
         padding-top: 20px !important;
+    }
+}
+
+@media (min-width: 1200px) {
+    .container-width {
+        max-width: 1385px;
     }
 }

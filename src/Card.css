@@ -144,7 +144,7 @@
     top: 147px;
     width: 100%;
     text-align: center;
-    display: block;
+    display: none;
 }
 
 .listing .listing-touch-info:before {

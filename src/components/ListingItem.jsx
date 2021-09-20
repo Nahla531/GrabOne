@@ -13,7 +13,7 @@ const ListingItem = ({
   isCollection,
   count,
   vendorName,
-  wishlist = true,
+  wishlist = false,
   isNew = false,
 }) => {
   function truncate(string, n) {
@@ -46,7 +46,7 @@ const ListingItem = ({
           )}
           <div
             className={`listing-flex ${
-              isCollection ? "btn-center" : (isNew = true)
+              isCollection ? "btn-center" : (wishlist = true)
             }`}
           >
             {count && (
