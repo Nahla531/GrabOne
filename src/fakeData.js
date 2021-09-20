@@ -11,10 +11,11 @@ export const data = [
       "https://main-cdn.grabone.co.nz/goimage/325x225/837a005e256befcb4caa3074c588a1ee88a55b76.jpg",
     location: "Thorndon",
     isCollection: false,
+    category: "Escape",
   },
   {
     id: 2,
-    price:44,
+    price: 44,
     title: "Five-Start Luxury Canterbury Something whatever",
     description:
       "One-Night Picton Yacht Club Getaway for Two People incl. Daily Cooked Breakfast with Barista Coffee, Early Check-In &amp; Check-Out, &amp; 20% off Food &amp; Beverages - Options for Two or Three Nights",
@@ -24,6 +25,7 @@ export const data = [
       "https://main-cdn.grabone.co.nz/goimage/325x225/713d82d6b4ac1da73019ddedc6dbf9d60291ea83.jpg",
     location: "",
     isCollection: true,
+    category: "collection",
   },
   {
     id: 3,
@@ -37,6 +39,7 @@ export const data = [
       "https://main-cdn.grabone.co.nz/goimage/325x225/713d82d6b4ac1da73019ddedc6dbf9d60291ea83.jpg",
     location: "Thorndon",
     isCollection: false,
+    category: "Escape",
   },
   {
     id: 4,
@@ -50,5 +53,6 @@ export const data = [
       "https://main-cdn.grabone.co.nz/goimage/325x225/a3c912cb9f2b24036e8d6315fd775511699a82b8.jpg",
     location: "Christchurch",
     isCollection: false,
+    category: "Escape",
   },
 ];

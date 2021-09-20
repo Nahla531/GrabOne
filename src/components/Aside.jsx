@@ -23,7 +23,11 @@ const Aside = () => {
           return (
             <ListGroupItem
               key={Math.random()}
-              style={{ border: "none", borderBottom: " 1px solid #f7f9fb" }}
+              style={{
+                border: "none",
+                borderBottom: " 1px solid #f7f9fb",
+                padding: 0,
+              }}
             >
               <a href="#" className="discover-item-link">
                 <span className="discover-name">{item.type}</span>

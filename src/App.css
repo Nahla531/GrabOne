@@ -290,6 +290,10 @@ img {
     padding-right: 15px;
 }
 
+.grid-container {
+    padding-top: 25px;
+}
+
 
 /* section start */
 
@@ -374,6 +378,11 @@ img {
     flex-wrap: wrap;
 }
 
+.email-subscription_button:hover {
+    background-color: #24c7fe;
+    color: #fff;
+}
+
 .cta-sub_message {
     color: #01b2ee;
     font-size: 24px;
@@ -412,6 +421,10 @@ aside header {
     padding: 15px 20px;
 }
 
+#aside a:hover {
+    color: #1eb3ec;
+}
+
 .deals-amount {
     color: #92a2ad;
     font-weight: 300;
@@ -419,9 +432,13 @@ aside header {
 }
 
 #aside {
-    width: 25%;
+    /* width: 25%; */
     padding-left: 15px;
     display: none;
+}
+
+#aside span {
+    font-size: 15px;
 }
 
 
@@ -663,5 +680,8 @@ span.main-footer_copyright-content {
 @media (min-width: 1200px) {
     .container-width {
         max-width: 1385px;
+    }
+    .container {
+        max-width: none !important;
     }
 }
