@@ -387,6 +387,44 @@ img {
 /* end of sub */
 
 
+/* aside */
+
+aside header {
+    font-size: 28px;
+    font-weight: 700;
+    background-color: #fff;
+    border-bottom: 1px solid #dce3ed;
+    border-radius: 3px 3px 0 0;
+    padding: 15px 20px;
+    color: #01b2ee;
+}
+
+#aside a {
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    font-weight: 500;
+    color: #4f5864;
+    line-height: 1;
+    transition: all 0.15s ease-out;
+    padding: 15px 20px;
+}
+
+.deals-amount {
+    color: #92a2ad;
+    font-weight: 300;
+    font-size: 12px;
+}
+
+#aside {
+    width: 25%;
+    padding-left: 15px;
+    display: none;
+}
+
+
 /* Footer start */
 
 .main-footer {
@@ -582,6 +620,10 @@ span.main-footer_copyright-content {
         max-width: none;
         padding-left: 45px;
         padding-right: 45px;
+    }
+    #aside {
+        display: block;
+        padding-left: 25px;
     }
 }
 
