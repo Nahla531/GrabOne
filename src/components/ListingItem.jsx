@@ -12,11 +12,10 @@ const ListingItem = ({
   isCollection,
   count,
 }) => {
-  return (
-    <Col>
-      
-    </Col>
-  );
+  function truncate(string, n) {
+    return string?.length > n ? string.substr(0, n - 1) + "..." : string;
+  }
+  return <Col></Col>;
 };
 
 export default ListingItem;
