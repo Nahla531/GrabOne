@@ -337,6 +337,11 @@ img {
     vertical-align: middle;
 }
 
+.homepage-main .section-header a.view-more:hover {
+    text-decoration: none;
+    background-color: #24c7fe;
+}
+
 
 /* section ends */
 

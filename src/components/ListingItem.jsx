@@ -25,7 +25,7 @@ const ListingItem = ({
       >
         <Card.Img variant="top" src={img} alt={description} />
 
-        <Card.Body>
+        <Card.Body className="listing-card-body">
           <Card.Title className="listing-header">
             {truncate(title, 20)}
           </Card.Title>
