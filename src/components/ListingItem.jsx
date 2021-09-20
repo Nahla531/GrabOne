@@ -26,7 +26,9 @@ const ListingItem = ({
         }`}
       >
         <Card.Img variant="top" src={img} alt={description} />
-
+        <div className="listing-paragraph">
+          <p>{truncate(description, 90)}</p>
+        </div>
         <Card.Body className="listing-card-body">
           <Card.Title className="listing-header">
             {truncate(title, 30)}
