@@ -2,7 +2,7 @@ import React from "react";
 
 const Hero = () => {
   return (
-    <div className="homepage-hero-banner container">
+    <div className="homepage-hero-banner container-width">
       <div className="homepage-inner-container ">
         <div className="header-image">
           <a href="#">

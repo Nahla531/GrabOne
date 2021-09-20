@@ -4,7 +4,7 @@ import Listing from "./Listing";
 
 const Section = ({ link, heading }) => {
   return (
-    <section className="container-width grid-container">
+    <section className="container-width  grid-container">
       <div className="homepage-main">
         <header className="section-header">
           <a href={link}>

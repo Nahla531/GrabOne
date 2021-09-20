@@ -162,7 +162,7 @@ const Header = () => {
                   <button
                     className="btn  dropdown-toggle"
                     type="button"
-                    id="dropdownMenu2"
+                    id="catg-btn"
                     data-bs-toggle="dropdown"
                     aria-expanded="false"
                   >

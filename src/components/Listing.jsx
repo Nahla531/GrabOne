@@ -17,6 +17,7 @@ const Listing = ({ isLarge }) => {
             isLarge={isLarge}
             isCollection={data.isCollection}
             count={data.count}
+            vendorName={data.vendorName}
           />
         );
       })}
