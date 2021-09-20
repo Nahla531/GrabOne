@@ -236,7 +236,51 @@ input.search-bar_input {
 
 /* header ends */
 
-* media quires */ @media (min-width: 1200px) {
+
+/* hero page start */
+
+.homepage-hero-banner {
+    margin-right: auto;
+    margin-left: auto;
+    box-sizing: border-box;
+    padding: 10px 15px 20px;
+}
+
+.header-image {
+    margin: auto;
+    display: block;
+    padding: 10px 10px 0px 10px;
+    text-align: center;
+}
+
+.homepage-inner-container .header-image {
+    display: block !important;
+    padding: 0;
+}
+
+img {
+    height: auto;
+    max-width: 100%;
+}
+
+.notification-container {
+    padding: 20px 0px 0px 0px;
+    text-align: center;
+    font-weight: normal;
+    font-size: 15px;
+}
+
+.notification-container strong {
+    font-weight: 700;
+}
+
+
+/* hero page ends */
+
+
+/* media quires */
+
+@media (min-width: 1200px) {
     .container {
         max-width: 1385px;
     }
