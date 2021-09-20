@@ -10,6 +10,7 @@ export const data = [
     image:
       "main-cdn.grabone.co.nz/goimage/325x225/713d82d6b4ac1da73019ddedc6dbf9d60291ea83.jpg",
     location: "Thorndon",
+    isCollection: false,
   },
   {
     id: 2,
@@ -22,6 +23,7 @@ export const data = [
     image:
       "main-cdn.grabone.co.nz/goimage/325x225/14c60688f3000ec6a1230fbb12d4a6a2d3851e81.jpg",
     location: "Pitcon",
+    isCollection: true,
   },
   {
     id: 3,
@@ -34,6 +36,7 @@ export const data = [
     image:
       "main-cdn.grabone.co.nz/goimage/325x225/713d82d6b4ac1da73019ddedc6dbf9d60291ea83.jpg",
     location: "Thorndon",
+    isCollection: false,
   },
   {
     id: 4,
@@ -46,5 +49,6 @@ export const data = [
     image:
       "main-cdn.grabone.co.nz/goimage/325x225/a3c912cb9f2b24036e8d6315fd775511699a82b8.jpg",
     location: "Christchurch",
+    isCollection: false,
   },
 ];

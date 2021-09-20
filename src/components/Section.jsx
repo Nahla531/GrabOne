@@ -1,5 +1,6 @@
 import React from "react";
 import { Container, Row } from "react-bootstrap";
+import Listing from "./Listing";
 
 const Section = ({ link, heading }) => {
   return (
@@ -15,7 +16,9 @@ const Section = ({ link, heading }) => {
           </a>
         </header>
         <Container>
-          <Row>{/* <Listing /> */}</Row>
+          <Row>
+            <Listing isLarge="false" />
+          </Row>
         </Container>
         {/* listing goes here grid view */}
       </div>
