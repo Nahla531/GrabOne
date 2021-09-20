@@ -1,7 +1,7 @@
 import Button from "@restart/ui/esm/Button";
 import React from "react";
 import { Card, Col } from "react-bootstrap";
-
+import "../Card.css";
 const ListingItem = ({
   id,
   title,
@@ -21,33 +21,40 @@ const ListingItem = ({
     <Col>
       <Card
         style={{ width: "" }}
-        className={`listing ${isLarge ? "listing-large" : "listing-small"}`}
+        className={`listing ${isLarge ? "listing-large" : "listing-small"} ${
+          isCollection ? "text-center listing-collection" : ""
+        }`}
       >
         <Card.Img variant="top" src={img} alt={description} />
 
         <Card.Body className="listing-card-body">
           <Card.Title className="listing-header">
-            {truncate(title, 20)}
+            {truncate(title, 30)}
           </Card.Title>
           {description && (
             <Card.Subtitle className="mb-2 listing-vendor-name">
-              {vendorName}
+              <span> {vendorName}</span>
+
+              {location && <span className="listing-location">{location}</span>}
             </Card.Subtitle>
           )}
-          {location && <Card.Text>{location}</Card.Text>}
-          {count && <div className="listing-purchase-count">{count}</div>}
-          <div className="listing-price-container">
-            {isCollection ? (
-              <Button className="offer-btn">view more</Button>
-            ) : (
-              <>
-                <span className="listing-price-from">from</span>
-                <div className="listing-price-current">
-                  <span className="listing-price-value">{price}</span>
-                  {price}
-                </div>
-              </>
+          <div className={`listing-flex ${isCollection ? "btn-center" : ""}`}>
+            {count && (
+              <div className="listing-purchase-count">{count} bought</div>
             )}
+            <div className="listing-price-container">
+              {isCollection ? (
+                <Button className="offer-btn">view collection</Button>
+              ) : (
+                <>
+                  <span className="listing-price-from">from</span>
+                  <div className="listing-price-current">
+                    <span className="listing-price-value">${price}</span>$
+                    {price}
+                  </div>
+                </>
+              )}
+            </div>
           </div>
         </Card.Body>
       </Card>

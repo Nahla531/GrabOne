@@ -1,0 +1,86 @@
+.listing-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.listing-purchase-count {
+    font-size: 14px;
+    color: #92a2ad;
+    width: 30%;
+}
+
+.btn-center {
+    justify-content: center;
+}
+
+.listing .listing-price-container {
+    line-height: 1.2;
+    text-align: right;
+    flex-direction: column;
+    display: inline-flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+}
+
+.listing .listing-price-container .listing-price-from {
+    font-size: 12px;
+    font-weight: 500;
+    color: #1eb3ec;
+}
+
+.listing .listing-price-container .listing-price-current {
+    font-size: 35px;
+    line-height: 1;
+    font-weight: 500;
+    color: #1eb3ec;
+}
+
+.listing .listing-price-container .listing-price-value {
+    font-size: 14px;
+    text-decoration: line-through;
+    color: #727986;
+    padding-right: 9px;
+}
+
+.listing .listing-header {
+    font-weight: 500;
+    color: #4f5864;
+}
+
+.h5 {
+    font-size: 17px !important;
+}
+
+.listing .listing-vendor-name {
+    display: inline-block;
+    width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    color: #1eb3ec;
+    font-size: 15px !important;
+    line-height: 1.2;
+}
+
+.listing .listing-vendor-name :nth-child(2) {
+    display: block;
+    margin-top: 2px;
+}
+
+.listing .listing-location {
+    font-weight: 300;
+    color: #92a2ad;
+}
+
+.offer-btn {
+    border-radius: 5px;
+    vertical-align: middle;
+    border: 2px solid #01b2ee;
+    padding: 8px 12px;
+    font-size: 13px;
+    font-weight: 700;
+    background: none;
+    color: #01b2ee;
+}

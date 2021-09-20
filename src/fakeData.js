@@ -14,7 +14,7 @@ export const data = [
   },
   {
     id: 2,
-    price: 44,
+    price:44,
     title: "Five-Start Luxury Canterbury Something whatever",
     description:
       "One-Night Picton Yacht Club Getaway for Two People incl. Daily Cooked Breakfast with Barista Coffee, Early Check-In &amp; Check-Out, &amp; 20% off Food &amp; Beverages - Options for Two or Three Nights",
@@ -22,12 +22,12 @@ export const data = [
     vendorName: "Atura Wellington",
     image:
       "https://main-cdn.grabone.co.nz/goimage/325x225/713d82d6b4ac1da73019ddedc6dbf9d60291ea83.jpg",
-    location: "Pitcon",
+    location: "",
     isCollection: true,
   },
   {
     id: 3,
-    price: 74,
+    price: 84,
     title: "Atura Wellington Hotel Stay for Two",
     description:
       "One-Night Wellington Weekend Stay for Two Adults in a Classic King Room incl. Breakfast, Welcome Drinks on Arrival, Gym Access to City Fitness Thorndon, 20% off Food &amp; Beverages, Early Check-In &amp; Late Check-Out - Options for Two or Three Nights",
