@@ -6,6 +6,7 @@ import Header from "./components/Header";
 import Hero from "./components/Hero";
 import Section from "./components/Section";
 import Footer from "./components/Footer";
+import CtaSub from "./components/CtaSub";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <Header />
       <Hero />
       <main role="main">
+        <CtaSub />
         <Section link="#" heading="Escapes" />
       </main>
       <Footer />

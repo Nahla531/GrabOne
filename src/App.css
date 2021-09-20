@@ -1,4 +1,4 @@
-    * {
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -601,13 +601,16 @@ span.main-footer_copyright-content {
         margin-bottom: 0;
         margin-right: 12px;
     }
-    @media (min-width: 1200px) {
-        .container-width {
-            max-width: 1385px;
-        }
+}
+
+@media (min-width: 1200px) {
+    .container-width {
+        max-width: 1385px;
     }
-    @media screen and (min-width: 1088px) {
-        .homepage-hero-banner .header-image {
-            padding-top: 20px !important;
-        }
+}
+
+@media screen and (min-width: 1088px) {
+    .homepage-hero-banner .header-image {
+        padding-top: 20px !important;
     }
+}
