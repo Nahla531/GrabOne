@@ -19,6 +19,7 @@ const ListingItem = ({
   }
   return (
     <Col>
+      
       <Card
         style={{ width: "" }}
         className={`listing ${isLarge ? "listing-large" : "listing-small"} ${
