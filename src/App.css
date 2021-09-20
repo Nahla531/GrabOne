@@ -289,6 +289,58 @@ img {
 }
 
 
+/* section start */
+
+.homepage-main {
+    margin: auto;
+}
+
+.homepage-main .section-header {
+    margin-bottom: 20px;
+    margin-top: 15px;
+}
+
+.homepage-main .section-header a {
+    text-decoration: none;
+    color: #4f5864;
+}
+
+.homepage-main .section-header a.view-more {
+    border-radius: 5px;
+    background-color: #01b2ee;
+    color: #fff;
+    display: inline-block;
+    vertical-align: middle;
+    line-height: 30px;
+    height: 35px;
+    padding-left: 16px;
+    padding-right: 16px;
+    margin-left: 15px;
+    transition: all 0.15s ease-out;
+}
+
+.homepage-main .section-header a.view-more .view-more_text {
+    font-size: 15px;
+    font-weight: 300;
+    padding: 0;
+}
+
+.homepage-main .section-header a.view-more .chev-right {
+    margin-left: 5px;
+    vertical-align: middle;
+}
+
+.homepage-main .section-header span {
+    font-size: 32px;
+    font-weight: 700;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+
+/* section ends */
+
+
 /* overriding some  bootstrap style*/
 
 .dropdown .btn:hover {
