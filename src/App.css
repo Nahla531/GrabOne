@@ -24,6 +24,11 @@ textarea {
     font-family: MuseoSans, BlinkMacSystemFont, -apple-system, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, Helvetica, Arial, sans-serif;
 }
 
+ul {
+    padding-left: 0 !important;
+    margin-bottom: 0 !important;
+}
+
 
 /* header start */
 
@@ -610,6 +615,8 @@ input.email-subscription_input {
 
 a.main-footer_copyright-content {
     text-decoration: none;
+    color: #1eb3ec;
+    font-weight: 200;
 }
 
 .main-footer_copyright-content {
@@ -618,6 +625,7 @@ a.main-footer_copyright-content {
 
 span.main-footer_copyright-content {
     font-weight: 200;
+    opacity: 0.9;
 }
 
 
@@ -626,12 +634,27 @@ span.main-footer_copyright-content {
 
 /* media quires */
 
+@media screen and (min-width: 650px) {
+    .row:nth-child(2) {
+        width: 50%;
+        margin: 0;
+        padding: 0%;
+    }
+}
+
 @media screen and (min-width: 768px) {
     .cta-sub {
         display: flex;
     }
     .container {
         max-width: none !important;
+    }
+}
+
+@media (min-width: 992px) {
+    .col-lg-3 {
+        flex: 0 0 auto;
+        width: 0% !important;
     }
 }
 
@@ -644,6 +667,10 @@ span.main-footer_copyright-content {
     #aside {
         display: block;
         padding-left: 25px;
+    }
+    .col-lg-3 {
+        flex: 0 0 auto;
+        width: 25% !important;
     }
 }
 
