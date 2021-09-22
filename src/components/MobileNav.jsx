@@ -24,7 +24,7 @@ const MobileNav = () => {
         <Col>
           <a href="#" className="mobile-nav-link">
             <div style={{ display: "inline-block" }}>
-              <Icon.WindowSidebar></Icon.WindowSidebar>
+              <Icon.Grid></Icon.Grid>
             </div>
             <span>Categories</span>
           </a>
