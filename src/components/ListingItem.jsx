@@ -20,19 +20,22 @@ const ListingItem = ({
     return string?.length > n ? string.substr(0, n - 1) + "..." : string;
   }
   return (
-    <Col>
+    <Col className={`${isLarge ? "listing-large" : "listing-small col-md-6 "}`}>
       <Card
         style={{ width: "" }}
-        className={`listing ${isLarge ? "listing-large" : "listing-small"} ${
+        className={`listing  ${
           isCollection ? "text-center listing-collection" : ""
         }`}
       >
         <div className="listing-touch-info"></div>
-
         <Card.Img variant="top" src={img} alt={description} />
         <div className="listing-paragraph">
           <p>{truncate(description, 90)}</p>
         </div>
+        {/* <div className="listing-paragraph">
+            <p>{truncate(description, 90)}</p>
+          </div>
+        */}
         <Card.Body className="listing-card-body">
           <Card.Title className="listing-header">
             {truncate(title, 25)}
@@ -41,7 +44,7 @@ const ListingItem = ({
             <Card.Subtitle className="mb-2 listing-vendor-name">
               <span> {vendorName}</span>
 
-              {location && <span className="listing-location">{location}</span>}
+              <span className="listing-location">{location}</span>
             </Card.Subtitle>
           )}
           <div

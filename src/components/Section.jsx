@@ -18,7 +18,7 @@ const Section = ({ link, heading }) => {
         </header>
         <Container fluid>
           <Row>
-            <Listing isLarge="false" />
+            <Listing isLarge={false} />
           </Row>
         </Container>
       </div>

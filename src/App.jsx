@@ -10,6 +10,7 @@ import CtaSub from "./components/CtaSub";
 import Aside from "./components/Aside";
 import { Col, Container, Row } from "react-bootstrap";
 import ListingItem from "./components/ListingItem";
+import MobileNav from "./components/MobileNav";
 
 function App() {
   return (
@@ -61,6 +62,7 @@ function App() {
         <Section link="#" heading="Featured " />
         <Section link="#" heading="Automotive" />
       </main>
+      <MobileNav />
       <Footer />
     </div>
   );

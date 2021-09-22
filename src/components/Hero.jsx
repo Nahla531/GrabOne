@@ -15,8 +15,7 @@ const Hero = () => {
         </div>
         <div className="notification-container">
           <strong>Covid 19 Update:</strong> We encourage you to shop as normal
-          for all your essential products. Non-essentials also available, but
-          shipping delays may occur. No pickup options available. Stay safe NZ!
+          for all your products but shipping delays may occur. Stay safe NZ!
         </div>
       </div>
     </div>
